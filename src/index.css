@@ -1,5 +1,11 @@
- @import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Comic+Relief:wght@400;700&display=swap');
+@import "tailwindcss";
  @plugin "daisyui" {
   themes: light --default, dark --prefersdark;
   themes: light --default;
  }
+
+*{
+      font-family: "Comic Relief", system-ui;
+      font-weight: 700;
+}
