@@ -6,7 +6,6 @@ import { Heart, Menu, X, Gift } from 'lucide-react';
 const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false);
 
-    // লিঙ্ক স্টাইল (ফোনের জন্য প্যাডিং একটু বেশি)
     const linkStyle = ({ isActive }) =>
         `block py-3 px-6 rounded-2xl transition-all duration-300 ${isActive
             ? "bg-pink-500/20 text-yellow-300 font-bold border border-pink-500/30"
